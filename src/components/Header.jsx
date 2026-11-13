@@ -19,7 +19,7 @@ export function Header({ business }) {
       </div>
       <nav className="header-actions" aria-label="Contact SR Enterprises">
         <a href={`https://wa.me/${business.whatsapp}`} target="_blank" rel="noreferrer" className="icon-button whatsapp" aria-label="Chat on WhatsApp">
-          <WhatsAppIcon size={19} />
+          <WhatsAppIcon size={24} />
         </a>
         <a href={`tel:${business.phone}`} className="icon-button call" aria-label="Call SR Enterprises">
           <Phone size={18} />

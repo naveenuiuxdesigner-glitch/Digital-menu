@@ -38,7 +38,7 @@ export function ProductDetails({ product, business, onClose }) {
 
           <div className="details-actions">
             <a href={whatsappLink} target="_blank" rel="noreferrer" className="primary-button details-whatsapp">
-              <WhatsAppIcon size={18} />
+              <WhatsAppIcon size={24} />
               WhatsApp Enquiry
             </a>
             <a href={`tel:${business.phone}`} className="secondary-button details-call">
