@@ -1,7 +1,7 @@
 import { ArrowRight, CircleAlert, CheckCircle2, Clock3 } from 'lucide-react'
 
 const availabilityMeta = {
-  available: { label: 'Available', className: 'available', icon: CheckCircle2 },
+  available: { label: 'Best Seller', className: 'available', icon: CheckCircle2 },
   'on-request': { label: 'On Request', className: 'on-request', icon: Clock3 },
   unavailable: { label: 'Unavailable', className: 'unavailable', icon: CircleAlert },
 }

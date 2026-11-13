@@ -3,7 +3,7 @@ import { categories } from '../data/categories'
 import { WhatsAppIcon } from './WhatsAppIcon'
 
 const availabilityMeta = {
-  available: { label: 'Available', className: 'available' },
+  available: { label: 'Best Seller', className: 'available' },
   'on-request': { label: 'On Request', className: 'on-request' },
   unavailable: { label: 'Unavailable', className: 'unavailable' },
 }
